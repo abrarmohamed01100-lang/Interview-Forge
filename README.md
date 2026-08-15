@@ -59,3 +59,6 @@ Project Goal
 The main goal of Interview-Forge is to combine Java OOP, logical thinking, data organization, and performance analysis into one practical console-based application.
 
 It was developed as a learning project to strengthen Java OOP skills and apply programming concepts in a realistic technical-interview scenario.
+
+### Note
+For the best experience viewing the code, please open this project on a desktop or laptop.
