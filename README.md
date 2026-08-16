@@ -1,64 +1,41 @@
-Interview-Forge
 
-Interview-Forge is a Java-based console application designed to simulate technical interview practice in an interactive and structured way.
+# Interview-Forge
 
-The project focuses on Object-Oriented Programming (OOP) concepts by organizing interview questions, evaluating answers, calculating performance, and providing useful feedback based on the user's results.
+**Built by Abrar**
+2nd Year Computer Science Student | August 2026
 
-Key Features
+### Why I Made This
+I get really nervous in technical interviews and I kept forgetting OOP concepts.
+So I decided to build Interview-Forge to practice every day and track my weak topics.
 
-- Interactive Java interview simulation.
-- Support for different question types.
-- Questions organized by topic and difficulty level.
-- Automatic answer evaluation and score calculation.
-- Performance analysis based on interview results.
-- Topic-based performance tracking to identify strengths and weaknesses.
-- Difficulty-based analysis to understand the user's performance at different levels.
-- Personalized performance recommendations.
-- Clean object-oriented structure using multiple classes.
+### Key Features
+- **3 Question Types**: MCQ, True/False, Essay
+- **Final Score + Grade**: See your percentage and level immediately
+- **Topic Report**: See your score in OOP, Inheritance, Encapsulation, Polymorphism
+- **Smart Advice**: If you score less than 50% in a topic, the app tells you to study it
+- **Retry Mode**: My favorite feature. You can retry all wrong questions at the end
 
-OOP Concepts Demonstrated
+### What I Learned
+1. **OOP in Real Project**: First time using abstract classes and inheritance outside of exams.
+2. **Debugging**: I had a bug where the program was skipping my answer. I searched on Google and fixed it.
+3. **Problem Solving**: I wanted to use HashMap for the topic report but it was confusing for me.
+   So I built it with simple loops and it worked. I will learn HashMap later.
 
-The project applies several important Java OOP concepts, including:
+### Challenges I Faced
+- My percentage was always 0. I forgot to use `100.0` instead of `100`.
+- Making the input work correctly with Scanner took me some time.
 
-- Classes and Objects
-- Encapsulation
-- Inheritance
-- Abstraction
-- Polymorphism
-- Constructors
-- Enums
-- ArrayList and HashMap
-- Method Overriding
-- Separation of responsibilities between classes
+### How to Run
+1. Open Terminal or CMD
+2. `javac Main.java`
+3. `java Main`
 
-How It Works
+### Screenshots From My Laptop
+**1. Running the interview and answering questions**
+![Questions Screen](screenshot1.png)
 
-The user starts an interview session and answers a set of technical questions.
+**2. Final Result + Topic Advice**
+![Result Screen](screenshot2.png)
 
-After completing the interview, the system evaluates the answers and generates performance information such as:
-
-- Overall score
-- Performance by topic
-- Performance by difficulty
-- Areas that need improvement
-- Recommendations based on the achieved results
-
-This makes the project more than a simple question-and-answer program; it demonstrates how Java OOP can be used to build a small interactive assessment system with meaningful analysis.
-
-Technologies Used
-
-- Java
-- Java OOP
-- ArrayList
-- HashMap
-- Scanner
-- Enum
-
-Project Goal
-
-The main goal of Interview-Forge is to combine Java OOP, logical thinking, data organization, and performance analysis into one practical console-based application.
-
-It was developed as a learning project to strengthen Java OOP skills and apply programming concepts in a realistic technical-interview scenario.
-
-### Note
-For the best experience viewing the code, please open this project on a desktop or laptop.
+---
+*Note: I am still adding new features. Next I want to add a timer for each question.*
